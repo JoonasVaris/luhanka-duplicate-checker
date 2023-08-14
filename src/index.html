@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Duplicate Checker</title>
+    <meta name="referrer" content="no-referrer" />
+    <script type="module" src="app.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <p>Instructions:</p>
+    <p>
+      -Export plain decklist, in moxfield More > Export > Copy for MTGO (each
+      card on own row)
+    </p>
+    <p>-Paste decklists in field</p>
+    <p>-Repeat for all four decks</p>
+    <p>-Click compare</p>
+    <p>-Profit</p>
+    <textarea
+      rows="4"
+      placeholder="paste decklist here"
+      cols="100"
+      id="deck1"
+    ></textarea>
+    <textarea
+      rows="4"
+      placeholder="paste decklist here"
+      cols="100"
+      id="deck2"
+    ></textarea>
+    <textarea
+      rows="4"
+      placeholder="paste decklist here"
+      cols="100"
+      id="deck3"
+    ></textarea>
+    <textarea
+      rows="4"
+      placeholder="paste decklist here"
+      cols="100"
+      id="deck4"
+    ></textarea>
+    <button id="compare-button">Compare</button>
+    <div id="results"></div>
+  </body>
+</html>
